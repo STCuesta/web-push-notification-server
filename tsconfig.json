@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+      "module":"commonjs",
+      "esModuleInterop": true,
+      "target":"es6",
+      "lib":["dom","ES2017.Object","ES2020"],
+      "noImplicitAny": true,
+      "moduleResolution": "node",
+      "sourceMap":true,
+      "outDir":"dist",
+      "baseUrl":".",
+      "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "strictPropertyInitialization": false,
+      "paths":{
+          "*":[
+              "node_modules/*"
+          ]
+      }
+  },
+  "include": [
+      "src/*",
+      "src/**/*",
+      "test/*",
+      "test/prepare_dataset/*",
+      "./index.ts"
+, "test/prepare_dataset/cluster.ts"  ],
+
+}
